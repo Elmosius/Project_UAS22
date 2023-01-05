@@ -220,7 +220,8 @@ nav {
 
 /* signin */
 .signin {
-  width: 40em;
+  width: 80%;
+  max-width: 40em;
   margin: auto;
 }
 
