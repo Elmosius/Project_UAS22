@@ -46,14 +46,3 @@ function im(image) {
   document.getElementById(image[0]).src = eval(image + ".src");
 }
 
-// live toast
-
-const toastTrigger = document.getElementById("liveToastBtn");
-const toastLiveExample = document.getElementById("liveToast");
-if (toastTrigger) {
-  toastTrigger.addEventListener("click", () => {
-    const toast = new bootstrap.Toast(toastLiveExample);
-
-    toast.show();
-  });
-}
