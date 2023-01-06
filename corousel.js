@@ -1,3 +1,10 @@
+/* Nama team = Celvin's (Case Elmo Kevin'  Store)
+    Tema =  Small-Medium Enterprise (Jual Case HP)
+    Member :
+    1. 2272008 - Elmosius Suli
+    2. 2272007 - Kevin Owen
+*/
+
 // corousel owl on index
 $(document).ready(function () {
   $(".owl-one").owlCarousel({

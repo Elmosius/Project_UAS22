@@ -1,3 +1,10 @@
+/* Nama team = Celvin's (Case Elmo Kevin'  Store)
+    Tema =  Small-Medium Enterprise (Jual Case HP)
+    Member :
+    1. 2272008 - Elmosius Suli
+    2. 2272007 - Kevin Owen
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -59,7 +66,7 @@ nav {
 /* index */
 
 .margin-0auto {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 #promo {
@@ -83,7 +90,6 @@ nav {
 
 #gambar-brand {
   width: 240px;
-  margin-left: 125px;
 }
 
 .font-judul {
@@ -138,111 +144,13 @@ nav {
 }
 
 .gambar-about1 {
-  width: 80%;
+  width: 75%;
 }
-
-@media only screen and (max-width: 768px) {
-  .gbr-ctr {
-    text-align: center;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    vertical-align: center !important;
-  }
-}
-
-/* akhir about */
-
-/* contactus */
-
-.peta {
-  width: 100%;
-  height: 22.5em;
-}
-.peta-contact {
-  width: 100%;
-  height: 100%;
-}
-
-/* akhir contactus */
-
-/* product */
-.coba {
-  display: none;
-  opacity: 0;
-}
-.nav-cart {
-  cursor: pointer;
-}
-
-#your-cart-css {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 1200;
-  display: flex;
-  flex-direction: column;
-  width: 0%;
-  visibility: visible;
-  height: 100%;
-  background-color: #fff;
-  background-clip: padding-box;
-  outline: 0;
-  transition: all 0.4s ease-in-out;
-}
-
-.gambar-product {
-  width: 100%;
-  height: auto;
-  max-height: 60vh;
-  z-index: 0;
-}
-.background-product {
-  background-color: #b6a18e;
-}
-
-.button-add-to-cart {
-  border: none;
-  transition-duration: 0.5s;
-  padding: 0.5em 1em;
-  color: white;
-  background-color: black;
-  text-align: center;
-}
-
-.button-add-to-cart:hover {
-  border: none;
-  transition-duration: 0.5s;
-  color: white;
-  background-color: black;
-  opacity: 0.8;
-}
-/* akhir product */
-
-/* signin */
-.signin {
-  width: 80%;
-  max-width: 40em;
-  margin: auto;
-}
-
-.modal-img {
-  width: auto;
-  max-width: 300px;
-}
-/* akhir signin */
-
-/* footer */
-footer {
-  bottom: 0;
-  background-color: gray;
-  padding: 2em 5em;
-}
-
-/* akhir footer */
 
 /* ********************************animation*************************************************** */
 
 /* resource */
+
 .gmbr-reso {
   --s: 200px; /* the size of the image */
   --b: 0px; /* the border thickness*/
@@ -397,3 +305,112 @@ footer {
     width: 80%;
   }
 }
+
+/*  about */
+
+@media only screen and (max-width: 768px) {
+  .gbr-ctr {
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    vertical-align: center !important;
+  }
+
+  .gambar-about1 {
+    width: 100%;
+  }
+}
+
+/* akhir about */
+
+/* contactus */
+
+.peta {
+  width: 100%;
+  height: 22.5em;
+}
+.peta-contact {
+  width: 100%;
+  height: 100%;
+}
+
+/* akhir contactus */
+
+/* product */
+.coba {
+  display: none;
+  opacity: 0;
+}
+.nav-cart {
+  cursor: pointer;
+}
+
+#your-cart-css {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  width: 0%;
+  visibility: visible;
+  height: 100%;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.gambar-product {
+  width: 100%;
+  height: auto;
+  max-height: 60vh;
+  z-index: 0;
+}
+.background-product {
+  background-color: #b6a18e;
+}
+
+.button-add-to-cart {
+  border: none;
+  transition-duration: 0.5s;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.button-add-to-cart:hover {
+  border: none;
+  transition-duration: 0.5s;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+}
+/* akhir product */
+
+/* signin */
+.signin {
+  width: 80%;
+  max-width: 40em;
+  margin: auto;
+  filter: blur(none);
+}
+/* .form-control {
+  min-width: 10em;
+} */
+
+.modal-img {
+  width: auto;
+  max-width: 300px;
+}
+/* akhir signin */
+
+/* footer */
+footer {
+  bottom: 0;
+  background-color: gray;
+  padding: 2em 5em;
+}
+
+/* akhir footer */
