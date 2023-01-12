@@ -48,6 +48,6 @@ $(document).ready(function () {
       },
     },
   });
-  $(".owl-prev").html('<i class="fa fa-chevron-left arrow-caro"></i>');
-  $(".owl-next").html('<i class="fa fa-chevron-right arrow-caros"></i>');
+  $(".owl-prev").html('<i class="fa fa-chevron-left arrow-caro p-3 fs-3"></i>');
+  $(".owl-next").html('<i class="fa fa-chevron-right arrow-caros p-3 fs-3"></i>');
 });
