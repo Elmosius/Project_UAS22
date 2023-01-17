@@ -4,7 +4,7 @@
     1. 2272008 - Elmosius Suli
     2. 2272007 - Kevin Owen
 */
-@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -30,9 +30,7 @@ section {
 /* akhir alert */
 
 /* Navbar */
-.font-logo {
-  font-family: 'Megrim';
-}
+
 nav {
   transition: all ease-in-out 0.6s;
 }
@@ -76,9 +74,9 @@ nav {
 }
 .img-hero {
   margin: 0 auto;
-  width: 100%;
+  width: 101%;
   height: auto;
-  max-height: calc(100vh - 82.96px - 32px);
+  max-height: 90vh;
   object-fit: cover;
 }
 
@@ -183,7 +181,7 @@ nav {
 @media only screen and (min-width: 1000px) {
   /* footer */
   .logo-footer {
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -261,7 +259,7 @@ nav {
   }
   /* footer */
   .logo-footer {
-    width: 40%;
+    width: 50%;
   }
   /* index */
   .text-promo {
@@ -277,10 +275,6 @@ nav {
   /* contact us */
   .cus {
     margin-top: -3em !important;
-  }
-  /* login */
-  .signin {
-    padding: 2em 2em !important;
   }
 }
 
@@ -416,7 +410,7 @@ nav {
 footer {
   bottom: 0;
   background-color: gray;
-  padding: 0.4em 5em 1em 5em;
+  padding: 2em 5em;
 }
 
 /* akhir footer */
